@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<title>Online HTML Editor</title>
+<head>
+</head>
+<body>
+<h1>Online HTML asd</h1>
+<button type = "button" id = "a" onclick = "check()"> asd</button>
+<p id = "b"></p>
+<a href = "https://www.aiteinstitute.com/" id = "c" onclick = "check()"> click </a>
+<div>This is real time online HTML Editor</div>
+</body>
+
+
+<script>
+var c = 0;
+function check() {
+    c ++;
+    document.getElementById("b").innerHTML = c;
+    if (c % 5) {
+      window.open("https://www.aiteinstitute.com/")
+    }
+    
+}
+
+// setInterval(() => {
+//         document.getElementById("c").click();
+//     },0);
+    
+</script>
+</html>
